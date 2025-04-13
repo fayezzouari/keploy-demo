@@ -1,5 +1,10 @@
 # Keploy GSoC 2025 Project Demo: GitHub Snippet Search with GitIngest
 
+<div align="center">
+  <img src="assets/keploy-logo-dark.svg" width="400">
+</div>
+
+
 ## Overview
 
 This demo is part of a **Google Summer of Code (GSoC) 2025** project proposal for **Keploy**, an API testing platform. It allows users to ingest a GitHub repository using GitIngest and search for code snippets (e.g., JWT authentication in a web app). Built with Gradio, Milvus, and sentence-transformers, it supports semantic search over repository content.
