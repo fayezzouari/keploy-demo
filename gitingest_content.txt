@@ -1,0 +1,38 @@
+Directory structure:
+└── fayezzouari-dashboard_challenge_aero/
+    ├── README.md
+    ├── components.json
+    ├── middleware.ts
+    ├── next.config.js
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tailwind.config.ts
+    ├── tsconfig.json
+    ├── .eslintrc.json
+    ├── public/
+    └── src/
+        ├── app/
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   ├── page.tsx
+        │   ├── add-problem/
+        │   │   ├── AddProblelm.tsx
+        │   │   └── page.tsx
+        │   ├── add-team/
+        │   │   ├── AddTeam.tsx
+        │   │   └── page.tsx
+        │   ├── api/
+        │   │   ├── login/
+        │   │   │   └── route.ts
+        │   │   ├── logout/
+        │   │   │   └── route.ts
+        │   │   └── sheets/
+        │   │       └── route.ts
+        │   ├── fonts/
+        │   │   ├── GeistMonoVF.woff
+        │   │   └── GeistVF.woff
+        │   ├── login/
+        │   │   └── page.tsx
+        │   ├── update-score/
+        │   │   ├── page.tsx
+        │   │   

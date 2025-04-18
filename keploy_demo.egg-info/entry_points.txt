@@ -1,0 +1,2 @@
+[console_scripts]
+keploy-demo = keploy_demo.main:main
