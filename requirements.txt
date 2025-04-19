@@ -98,3 +98,4 @@ urllib3==2.4.0
 uvicorn==0.34.0
 websockets==15.0.1
 zstandard==0.23.0
+langchain-groq>=0.1.0

@@ -2,3 +2,4 @@ volumes
 embedEtcd.yaml
 user.yaml
 .venv
+keploy_demo/.env
