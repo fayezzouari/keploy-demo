@@ -246,8 +246,8 @@ def scrape_repo(repo_url, github_token=""):
 def embed_and_store(content, collection):
     """Split content into chunks and store embeddings in Milvus."""
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=100,
+        chunk_size=5000,
+        chunk_overlap=500,
         separators=["\n\n", "\n", " ", ""]
     )
     print(content)
